@@ -1,10 +1,12 @@
-<h6>JStorm study && my some samples</h6>
+<h4>JStorm study && my some samples</h4>
 
 <div>
 	<div>
-		<p>项目、项目链接、项目介绍</p>
+		<p>项目介绍</p>
 	</div>
-	!a simple project for Wordcount(https://github.com/johnneyChiu/jstorm-projects/tree/master/firststorm")
+   <p>------------------------------------------</p>
+	实现单词计数的简单项目
+	<h6>a simple project for Wordcount</h6>(https://github.com/johnneyChiu/jstorm-projects/tree/master/firststorm)
 	 
 	 
 </div>
