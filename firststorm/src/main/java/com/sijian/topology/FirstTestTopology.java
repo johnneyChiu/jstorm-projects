@@ -28,7 +28,7 @@ public class FirstTestTopology {
                 .localOrShuffleGrouping("test-spout");
         topologyBuilder.setBolt("test-count-bolt", new FirstTestBoltWordCount(), 1)
                 .fieldsGrouping("test-split-bolt", new Fields("word"))
-                .fieldsGrouping("test-spout",new Fields("line"));
+                ;
         Config config = new Config();
         config.setDebug(false);
         if (args.length > 2 && args != null) {

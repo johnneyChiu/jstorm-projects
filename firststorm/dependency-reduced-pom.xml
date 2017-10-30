@@ -33,20 +33,14 @@
       </plugin>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.2</version>
         <configuration>
-          <source>${maven.compiler.source}</source>
-          <target>${maven.compiler.target}</target>
+          <source>${maven.7.compiler.source}</source>
+          <target>${maven.7.compiler.target}</target>
         </configuration>
       </plugin>
     </plugins>
   </build>
-  <repositories>
-    <repository>
-      <id>sijian_repo</id>
-      <name>cisco repository</name>
-      <url>http://172.16.1.205:8081/nexus/</url>
-    </repository>
-  </repositories>
   <dependencies>
     <dependency>
       <groupId>com.alibaba.jstorm</groupId>
