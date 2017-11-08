@@ -95,6 +95,20 @@
                                         <mainClass>com.sijian.topology.FirstTestTopology</mainClass>
                                     </transformer>
                             </transformers>
+
+                            <!--&lt;!&ndash;解决包冲突，将org.codehaus.plexus.util 重命名 org.shaded.plexus.util&ndash;&gt;
+                            <relocations>
+                                <relocation>
+                                    <pattern>org.codehaus.plexus.util</pattern>
+                                    <shadedPattern>org.shaded.plexus.util</shadedPattern>
+                                    <excludes>
+                                        <exclude>org.codehaus.plexus.util.xml.Xpp3Dom</exclude>
+                                        <exclude>org.codehaus.plexus.util.xml.pull.*</exclude>
+                                    </excludes>
+                                </relocation>
+                            </relocations>
+-->
+
                         </configuration>
                     </execution>
                 </executions>
